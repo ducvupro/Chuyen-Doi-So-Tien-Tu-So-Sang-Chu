@@ -14,7 +14,7 @@ Code đơn giản dễ dùng.
 
 Cách sử dụng :
 
-Up file **sotienbangchu.class.php** lên host.
+Up file `sotienbangchu.class.php` lên host.
 
 ```
 <?php
