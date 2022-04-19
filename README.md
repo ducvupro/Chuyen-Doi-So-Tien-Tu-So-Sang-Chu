@@ -18,12 +18,8 @@ Up file **sotienbangchu.class.php** lên host.
 
 ```
 <?php
-
-
 include './sotienbangchu.class.php';
-
 $sotienbangchu = new SoTienBangChu(99999);
-
 echo $sotienbangchu->vupro();
 ?>
 ```
