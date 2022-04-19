@@ -26,6 +26,6 @@ echo $sotienbangchu->vupro();
 ?>
 ```
 
-Ở đây mình có một Abstract Class là `SoTienBangChu`, Sau khi new một instance mới (new SoTien....). Mình sẽ gọi hàm `vupro()` để thực hiện chuyển đổi.
++ Ở đây mình có một Abstract Class là `SoTienBangChu`, Sau khi new một instance mới (new SoTien....). Mình sẽ gọi hàm `vupro()` để thực hiện chuyển đổi.
 
-Trong đó `99999` là số tiền bạn muốn chuyển đổi.
++ Trong đó `99999` là số tiền bạn muốn chuyển đổi.
