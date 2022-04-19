@@ -1,20 +1,22 @@
-
 # Code chuyển đổi số tiền từ số sang chữ.
-Code giúp chuyển đổi số tiền từ số sang chữ.
 
-Giúp đọc các số tiền lớn 1 cách dễ dàng.
+- Code giúp chuyển đổi số tiền từ số sang chữ.
 
-Giúp biết khi nào đọc mươi, mốt, bốn, tư, năm, lăm.
+- Giúp đọc các số tiền lớn 1 cách dễ dàng.
 
-Chuyển đổi được số tiền lên đến tỷ tỷ tỷ.
+- Giúp biết khi nào đọc mươi, mốt, bốn, tư, năm, lăm.
 
-Giới hạn chuyển đổi -9999999999999999999999999999 -> 9999999999999999999999999999
+- Chuyển đổi được số tiền lên đến tỷ tỷ tỷ.
 
-Code đơn giản dễ dùng.
+- Giới hạn chuyển đổi -9999999999999999999999999999 -> 9999999999999999999999999999
 
-Cách sử dụng :
+- Code đơn giản dễ dùng.
 
-Up file `sotienbangchu.class.php` lên host.
+- 100000 VND => Một Trăm Nghìn Đồng
+
+- Cách sử dụng :
+
++ Up file `sotienbangchu.class.php` lên host.
 
 ```
 <?php
