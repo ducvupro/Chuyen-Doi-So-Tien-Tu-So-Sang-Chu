@@ -191,7 +191,7 @@ class SoTienBangChu {
         if ($ntientrieutyty > 0 && $ntientrieutyty < 10) {
             if ($ntientrieutyty == 1 && $ntienchuctrieutyty > 1) {
                 $tbc[333] = 'Mốt Triệu Tỷ Tỷ';
-            } else if ($ntientrieutyty == 2 && $ntienchuctrieutyty > 2) {
+            } else if ($ntientrieutyty == 4 && $ntienchuctrieutyty > 2) {
                 $tbc[333] = 'Tư Triệu Tỷ Tỷ';
             } else if ($ntientrieutyty == 5 && $ntienchuctrieutyty > 0) {
                 $tbc[333] = 'Lăm Triệu Tỷ Tỷ';
@@ -231,7 +231,7 @@ class SoTienBangChu {
         if ($ntiennghintyty > 0 && $ntiennghintyty < 10) {
             if ($ntiennghintyty == 1 && $ntienchucnghintyty > 1) {
                 $tbc[666] = 'Mốt Nghìn Tỷ Tỷ';
-            } else if ($ntiennghintyty == 2 && $ntienchucnghintyty > 2) {
+            } else if ($ntiennghintyty == 4 && $ntienchucnghintyty > 2) {
                 $tbc[666] = 'Tư Nghìn Tỷ Tỷ';
             } else if ($ntiennghintyty == 5 && $ntienchucnghintyty > 0) {
                 $tbc[666] = 'Lăm Nghìn Tỷ Tỷ';
@@ -271,7 +271,7 @@ class SoTienBangChu {
         if ($ntientyty > 0 && $ntientyty < 10) {
             if ($ntientyty == 1 && $ntienchuctyty > 1) {
                 $tbc[999] = 'Mốt Tỷ Tỷ';
-            } else if ($ntientyty == 2 && $ntienchuctyty > 2) {
+            } else if ($ntientyty == 4 && $ntienchuctyty > 2) {
                 $tbc[999] = 'Tư Tỷ Tỷ';
             } else if ($ntientyty == 5 && $ntienchuctyty > 0) {
                 $tbc[999] = 'Lăm Tỷ Tỷ';
@@ -311,7 +311,7 @@ class SoTienBangChu {
         if ($tientrieuty >= 1000000000000000 && $tientrieuty < 10000000000000000) {
             if ($ntientrieuty == 1 && $ntienchuctrieuty > 1) {
                 $tbc[33] = 'Mốt Triệu Tỷ';
-            } else if ($ntientrieuty == 2 && $ntienchuctrieuty > 2) {
+            } else if ($ntientrieuty == 4 && $ntienchuctrieuty > 2) {
                 $tbc[33] = 'Tư Triệu Tỷ';
             } else if ($ntientrieuty == 5 && $ntienchuctrieuty > 0) {
                 $tbc[33] = 'Lăm Triệu Tỷ';
@@ -351,7 +351,7 @@ class SoTienBangChu {
         if ($tiennghinty >= 1000000000000 && $tiennghinty < 10000000000000) {
             if ($ntiennghinty == 1 && $ntienchucnghinty > 1) {
                 $tbc[66] = 'Mốt Nghìn Tỷ';
-            } else if ($ntiennghinty == 2 && $ntienchucnghinty > 2) {
+            } else if ($ntiennghinty == 4 && $ntienchucnghinty > 2) {
                 $tbc[66] = 'Tư Nghìn Tỷ';
             } else if ($ntiennghinty == 5 && $ntienchucnghinty > 0) {
                 $tbc[66] = 'Lăm Nghìn Tỷ';
@@ -391,7 +391,7 @@ class SoTienBangChu {
         if ($tienty >= 1000000000 && $tienty < 10000000000) {
             if ($ntienty == 1 && $ntienchucty > 1) {
                 $tbc[99] = 'Mốt Tỷ';
-            } else if ($ntienty == 2 && $ntienchucty > 2) {
+            } else if ($ntienty == 4 && $ntienchucty > 2) {
                 $tbc[99] = 'Tư Tỷ';
             } else if ($ntienty == 5 && $ntienchucty > 0) {
                 $tbc[99] = 'Lăm Tỷ';
@@ -431,7 +431,7 @@ class SoTienBangChu {
         if ($tientrieu >= 1000000 && $tientrieu < 10000000) {
             if ($ntientrieu == 1 && $ntienchuctrieu > 1) {
                 $tbc[3] = 'Mốt Triệu';
-            } else if ($ntientrieu == 2 && $ntienchuctrieu > 2) {
+            } else if ($ntientrieu == 4 && $ntienchuctrieu > 2) {
                 $tbc[3] = 'Tư Triệu';
             } else if ($ntientrieu == 5 && $ntienchuctrieu > 0) {
                 $tbc[3] = 'Lăm Triệu';
@@ -471,7 +471,7 @@ class SoTienBangChu {
         if ($tiennghin >= 1000 && $tiennghin < 10000) {
             if ($ntiennghin == 1 && $ntienchucnghin > 1) {
                 $tbc[6] = 'Mốt Nghìn';
-            } else if ($ntiennghin == 2 && $ntienchucnghin > 2) {
+            } else if ($ntiennghin == 4 && $ntienchucnghin > 2) {
                 $tbc[6] = 'Tư Nghìn';
             } else if ($ntiennghin == 5 && $ntienchucnghin > 0) {
                 $tbc[6] = 'Lăm Nghìn';
@@ -511,7 +511,7 @@ class SoTienBangChu {
         if ($tienle > 0 && $tienle < 10) {
             if ($ntienle == 1 && $ntienchuc > 1) {
                 $tbc[9] = 'Mốt';
-            } else if ($ntienle == 2 && $ntienchuc > 2) {
+            } else if ($ntienle == 4 && $ntienchuc > 2) {
                 $tbc[9] = 'Tư';
             } else if ($ntienle == 5 && $ntienchuc > 0) {
                 $tbc[9] = 'Lăm';
